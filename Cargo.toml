@@ -1,0 +1,9 @@
+[package]
+name = "open_text_file_by_dialog_or_console"
+version = "0.1.0"
+authors = ["gioisco <just.gioisco@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+structopt = { version = "0.3", default-features = false }
+native-dialog = "0.5.5"
