@@ -3,6 +3,8 @@
 ## Ibrid application:
 - It works like CLI, when there is first argument.
 - Otherwise, open a GUI dialog for pick a file.
+
+## Cross platform
 Use structopt for read args.
 Use native-dialog for simple GUI.
 
