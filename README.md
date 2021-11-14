@@ -1,12 +1,9 @@
 # Read text file by console or dialog
     
 ## Ibrid application:
-- It works like CLI, when there is first argument.
-- Otherwise, open a GUI dialog for pick a file.
+Like CLI, use structopt for read args, when there is first argument.
 
-## Cross platform
-Use structopt for read args.
-Use native-dialog for simple GUI.
+Otherwise, use native-dialog for open a GUI dialog for pick a file.
 
 ## How it works:
 - Read first argument like path file
